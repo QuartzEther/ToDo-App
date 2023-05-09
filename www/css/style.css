@@ -541,8 +541,7 @@ p {
   font-weight: 400;
   font-size: 2rem;
   padding: 0.9rem 1.6rem;
-  width: 100%;
-  transition: 0.3s border-color; }
+  width: 100%; }
   .input:focus, .input:hover {
     border-color: #129dad; }
 
@@ -962,13 +961,21 @@ input:checked ~ .round-button {
 .pop-up_dark-mode .calendar__img {
   background-image: url("../img/calendar_dark.png");
   opacity: 0.8; }
-.pop-up_dark-mode .pop-up__form > input {
+.pop-up_dark-mode .pop-up__form > textarea {
   color: #ffffff;
   background-color: #272851; }
-  .pop-up_dark-mode .pop-up__form > input:focus, .pop-up_dark-mode .pop-up__form > input:hover {
+  .pop-up_dark-mode .pop-up__form > textarea:focus, .pop-up_dark-mode .pop-up__form > textarea:hover {
     border-color: #abc6c9; }
 .pop-up_dark-mode .pop-up__menu {
   background-color: #31315c; }
+
+textarea::-webkit-scrollbar {
+  width: 0 !important; }
+
+textarea {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  resize: none; }
 
 .padding-0px {
   padding: 0; }
