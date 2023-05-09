@@ -1,0 +1,27 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuartzEther/ToDo-App.git"
+  },
+  "author": "Quartz Ether",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuartzEther/ToDo-App/issues"
+  },
+  "homepage": "https://github.com/QuartzEther/ToDo-App#readme",
+  "dependencies": {
+    "@capacitor/android": "^5.0.1",
+    "@capacitor/core": "^5.0.1"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^2.0.4",
+    "@capacitor/cli": "^5.0.1"
+  }
+}

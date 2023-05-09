@@ -385,8 +385,32 @@ body {
   justify-content: space-around; }
   @media (max-width: 767px) {
     .container {
-      min-height: 91.5vh;
+      min-height: 100vh;
       align-items: center; } }
+
+.copyright {
+  font-family: "Roboto";
+  color: #000000;
+  position: fixed;
+  right: 1.5rem;
+  bottom: 0.8rem;
+  font-size: 1.3rem;
+  opacity: 0.5;
+  z-index: 1; }
+  .copyright a {
+    font-family: "Roboto";
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.3rem; }
+  .copyright span {
+    color: #000000; }
+  .copyright_dark {
+    color: #ffffff; }
+    .copyright_dark a {
+      color: #ffffff; }
+    .copyright_dark span {
+      color: #ffffff; }
 
 @font-face {
   font-family: "Roboto";
@@ -458,11 +482,13 @@ p {
   margin-bottom: 10rem;
   padding: 2.5rem 0 2rem 0;
   border-radius: 2rem;
+  z-index: 2;
   background-color: #ffffff;
   box-shadow: 0.2rem 0.4rem 0.6rem rgba(0, 0, 0, 0.25); }
   @media (max-width: 767px) {
     .list {
-      margin: 1.5vh; } }
+      margin: 1.5vh;
+      margin-bottom: 4vh; } }
   @media (max-width: 500px) {
     .list {
       width: 95vw; } }
@@ -557,13 +583,13 @@ p {
   border: 2px solid transparent;
   width: 12rem; }
   .pop-btn_del {
-    background-color: #bc2c2c; }
+    background-color: #d05555; }
     .pop-btn_del:hover {
-      border-color: #e76767; }
+      border-color: #f47c7c; }
   .pop-btn_ok {
-    background-color: #44a637; }
+    background-color: #65ca58; }
     .pop-btn_ok:hover {
-      border-color: #59d548; }
+      border-color: #9ef092; }
   .pop-btn:active {
     filter: drop-shadow(0.1rem 0.2rem 0.2rem rgba(0, 0, 0, 0.4)); }
 
